@@ -1,0 +1,243 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-family: 'Montserrat';
+}
+
+p
+{  font-family: "Ubuntu";
+  color: #8f8f8f;
+}
+
+/* Headings Section */
+
+.big-heading
+{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.features-heading
+{
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.pricing-heading
+{
+  font-size: 1.5rem;
+  color: #000;
+}
+
+/* Title Section */
+
+#title
+{
+  font-family: 'Ubuntu',sans-serif;
+  text-align: left;
+}
+
+/* containers */
+
+.container-fluid
+{
+  padding: 3% 15%;
+  padding-bottom: 8%;
+}
+
+.colored-section
+{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section
+{
+  background-color: #fff;
+}
+
+/* Navbar section */
+
+.navbar
+{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand
+{
+  font-size: 3rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.navbar-item{
+  padding: 0 18px;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  color: #fff;
+}
+
+/* title-box */
+
+.download-btn
+{
+  margin: 5% 3% 5% 0;
+}
+
+.rotated {
+  width: 60%;
+  right: 9em;
+  transform: rotate(25deg);
+  position: absolute;
+  /* z-index: 1; */
+}
+
+/* features section */
+
+#features{
+  position: relative;
+}
+
+.middle-container
+{
+  padding: 13rem 9.5rem;
+}
+
+.icon
+{
+  color: #ef8172;
+  font-size: 5rem;
+  padding-bottom: 1.2rem;
+}
+
+.icon-box
+{
+  padding: 3% 7%;
+}
+
+.icon:hover
+{
+  color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials
+{
+  background-color: #ef8172;
+}
+
+.testimonial-item
+{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.name-text
+{
+  font-family: "Ubuntu";
+}
+
+/* Press section */
+
+#press
+{
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-image
+{
+  width: 15%;
+  margin: 3%;
+  margin-bottom: 6%;
+}
+
+/* Pricing Section */
+
+#pricing
+{
+  padding: 100px;
+}
+
+.pricing-col
+{
+  padding: 3% 2%;
+}
+
+.pricing-text-h
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-price-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* call to action */
+
+#cta
+{
+  padding: 7% 15%;
+}
+
+#cta .download-btn
+{
+  font-weight: bold;
+  font-family: "Ubuntu";
+  padding: 1% 5%;
+}
+
+/* footer */
+
+footer
+{
+  padding: 3% 15%;
+  text-align:center;
+  color: #d3d3d3;
+  line-height: 1.5;
+}
+
+.foot-icon
+{
+  font-size: 1.5rem;
+  color: #414141;
+  margin: 1% 0.3%;
+}
+
+/* media queries */
+
+@media (max-width:1024px)
+{
+  #title
+  {
+    text-align: center;
+  }
+
+  .rotated
+  {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
